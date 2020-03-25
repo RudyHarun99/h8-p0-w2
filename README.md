@@ -16,7 +16,7 @@
 
 - [Exercise 08 : JavaScript Building Blocks: Codecademy JavaScript Course (Unit 3 - Functions)](https://github.com/RudyHarunArrasyid/h8-p0-w2/blob/master/exercise-08.png)
 
-- [Exercise 09 : Berlatih Penggunaan Functions](https://github.com/RudyHarunArrasyid/h8-p0-w2/blob/master/exercise-09.js)- 
+- [Exercise 09 : Berlatih Penggunaan Functions](https://github.com/RudyHarunArrasyid/h8-p0-w2/blob/master/exercise-09.js)
 
 - [Exercise 10 : Bandingkan Angka](https://github.com/RudyHarunArrasyid/h8-p0-w2/blob/master/exercise-10.js)
 
