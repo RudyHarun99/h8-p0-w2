@@ -1,0 +1,118 @@
+Pseudocode Challenge
+Soal ini terdiri dari 4 nomor!
+
+
+1. Newton Second Law
+Bunyi hukum II Newton adalah :
+Percepatan sebuah benda akan sebanding dengan gaya yang diberikan pada benda dan berbanding terbalik dengan massa benda. Arah percepatan benda sama dengan arah gaya total yang diberikan pada benda.
+Secara matematis hukum II Newton dirumuskan sebagai berikut : ΣF = m x a
+
+ΣF = resultan gaya (Newton)
+m = massa benda (kg)
+a = percepatan benda (m/s2)
+
+Pertanyaan :
+Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+
+Jawaban :
+READ and SAVE "massa benda" as INT
+READ and SAVE "percepatan benda" as INT
+COMPUTE "massa benda" multiply by "percepatan benda"
+SAVE previous computation result
+SHOW the computation result
+
+
+
+
+
+2. Tahun Kabisat
+Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu tahun memiliki tanggal 29 Februari berarti tahun tersebut merupakan tahun kabisat.
+Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain :
+
+Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+
+Pertanyaan :
+Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
+
+Jawaban :
+Algoritma tahun kabisat :
+1. Jika tahun habis dibagi 4, dan habis dibagi 100, dan habis dibagi 400, maka tahun kabisat
+2. Jika tahun habis dibagi 4, dan habis dibagi 100, tapi tidak habis dibagi 400, maka bukan tahun kabisat
+3. Jika tahun habis dibagi 4, tapi tidak habis dibagi 100, maka tahun kabisat
+4. Jika tahun tidak habis dibagi 4, maka bukan tahun kabisat
+
+Pseudocode tahun kabisat :
+READ and SAVE "tahun" as INT
+  IF "tahun" modulo by 4 equal 0
+  DO
+    IF "tahun" modulo by 100 equal 0
+    DO
+      IF "tahun" modulo by 400 equal 0
+      DO
+        SHOW "tahun kabisat"
+      ELSE
+        SHOW "bukan tahun kabisat"
+    ELSE
+      SHOW "tahun kabisat"
+  ELSE
+    SHOW "bukan tahun kabisat"
+  END IF
+
+
+
+
+
+3. Laundry Day
+Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+Pertanyaan :
+Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!
+
+Jawaban :
+Algoritma menghitung pakaian :
+1. Cek jumlah pakaian = 0
+2. Selama jumlah pakaian kurang dari (<) 20
+3. Lakukan penambahan jumlah pakaian sebanyak 1
+4. Lakukan penambahan jumlah pakaian sampai jumlah pakaian mencapai 20
+5. Jumlah pakaian mencapai 20, nyalakan mesin cuci
+
+Pseudocode menghitung pakaian :
+STORE "pakaian" with 0
+
+WHILE "pakaian" less than 20
+  ADD "pakaian" by 1
+DO "nyalakan mesin cuci"
+END WHILE
+
+
+
+
+
+4. Periksa Kuku
+Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+Pertanyaan :
+Buatlah algoritma & pseudocode untuk permasalahan diatas.
+
+Jawaban :
+Algoritma periksa kuku :
+1. Cek jumlah siswa = 1
+2. Selama jumlah siswa kurang dari (<) 40
+3. Lakukan cek kuku
+4. Jika kuku panjang, maka berikan hukuman
+5. Jika kuku pendek, maka berikan pujian
+6. Tambah jumlah siswa dengan 1
+7. Lakukan cek kuku sampai jumlah siswa mecapai 40
+
+Pseudocode periksa kuku :
+STORE "siswa" with 1
+
+WHILE "siswa" less than 40
+  DO "cek kuku"
+  IF "cek kuku" equal "panjang"
+    DO "beri hukuman"
+  ELSE
+    DO "beri pujian"
+  ADD "siswa" by 1
+END WHILE
